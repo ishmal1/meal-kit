@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 
 import "./globals.css";
-import { CartProvider } from "./Context/CartContext";
-import { Toaster } from "@/components/ui/sonner";
 
 
 const geistSans = Geist({
@@ -17,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Clifton Coffee",
-  description: "Clifton Coffee",
+  title: "Meal Kit",
+  description: "Meal Kit",
 };
 
 export default async function RootLayout({
@@ -32,8 +30,7 @@ export default async function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
               <div className="w-full">
-                <CartProvider>{children}</CartProvider>
-                 <Toaster />
+                {children}
                 </div>
       </body>
     </html >

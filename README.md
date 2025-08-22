@@ -1,6 +1,6 @@
-# Clifton Coffee Website
+# Meal Kit Website
 
-**This is a modern, responsive website for Clifton Coffee built with Next.js, Tailwind CSS, ShadCN UI, Swiper JS, and Lucide React. It features an Instagram-style vertical carousel, interactive image cards, and a clean layout to showcase the brand’s coffee products and social media presence.**
+**This is a modern, responsive website for a Meal Kit service built with Next.js, Tailwind CSS, ShadCN UI, and Lucide React. It allows users to browse meal options, view detailed recipes, explore pricing, and place orders with a clean and intuitive interface. The website is designed to make discovering and ordering fresh, ready-to-cook meal kits simple and enjoyable.**
 
 ---
 
@@ -31,7 +31,7 @@ Edit
 npm run dev
 ```
 ## 4. Open the application:
-Visit https://clifton-coffee-five.vercel.app/ in your browser to see the application running.
+Visit in your browser to see the application running.
 
 # Technologies Used
 The main technologies and tools used in this project are:
@@ -42,11 +42,7 @@ The main technologies and tools used in this project are:
 
 - **ShadCN UI:** A utility-first UI kit for building clean and consistent React components.
 
-- **Swiper JS**: A carousel/slider library for implementing vertical scrolling carousels.
-
 - **Lucide React:** Modern SVG icon library for React applications.
-
-- **React:** For building UI components.
 
 - **JavaScript/TypeScript:** Modern ES6+ syntax and type safety for components and logic.
 
@@ -59,10 +55,9 @@ To learn more about the technologies used in this project, check out the followi
 
 - [ShadCN UI GitHub](https://github.com/shadcn-ui/ui) – Explore the ShadCN UI kit.
 
-- [Swiper JS Documentation](https://swiperjs.com/) – Learn how to create vertical carousels.
-
 - [Lucide Icons](https://lucide.dev/icons/) – Explore the icon library for React.
 
 You can also explore the Next.js GitHub repository, where your feedback and contributions are welcome.
+
 
 
