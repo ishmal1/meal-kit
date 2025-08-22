@@ -29,7 +29,7 @@ export default function Sidebar() {
           <DrawerTrigger asChild>
             <Button
               variant="ghost"
-              className="mb-2 w-full flex items-center justify-center border-none shadow-none outline-none focus:ring-0 hover:bg-transparent"
+              className="mb-2 w-full flex items-center justify-center border-none shadow-none hover:cursor-pointer outline-none focus:ring-0 hover:bg-transparent"
             >
               <Menu className="w-6 h-6" />
             </Button>
